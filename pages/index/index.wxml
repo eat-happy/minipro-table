@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view class="table-wrap" scroll-y scroll-x height="300rpx">
+    <view class="table">
+      <view class="table-header">
+        <view class="table-cell" wx:for="{{20}}">
+          标题{{item+1}}
+        </view>
+      </view>
+
+      <view class="table-body">
+        <view class="table-body-tr" wx:for="{{300}}" wx:for-item="i">
+          <view class="table-cell" wx:for="{{20}}" wx:for-item="j">
+            内容{{i+1}}-{{j+1}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
