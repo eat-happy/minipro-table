@@ -3,3 +3,4 @@
 - [x] 固定表头
 - [x] 固定首列
 - [x] 斑马纹
+![preview](preview.jpg)
